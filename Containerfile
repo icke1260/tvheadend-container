@@ -160,12 +160,15 @@ RUN apk add --no-cache \
     perl \
     perl-datetime-format-strptime \
     perl-json \
+    py3-pip \
     py3-requests \
     python3 \
+    streamlink \
     uriparser \
     x264 \
     x265 \
     xmltv \
+    yt-dlp \
     zlib
 
 COPY --from=buildstage /tmp/argtable-build/usr/ /usr/
